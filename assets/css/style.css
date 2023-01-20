@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container_height{
+    height: 100vh;
+}
+.dog_input{
+    width: 100%;
+    flex-shrink: 0;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.bg_color{
+    background-color: rgb(233, 227, 227);
+}
+
+img{
+    box-shadow: 2px 2px 10px 5px  rgb(197, 196, 196);
+}
+
+.my_btn{
+    border: none;
+    background-color: white;
+}
+
+.position_see{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.position_see i{
+    cursor: pointer;
+}
+
+.position_heading{
+    position: absolute;
+    top: 3%;
+    left: 75%;
+    transform: translate(-50%);
+}
+
+#heart_color{
+    color: red;
+}
+
+.heading_text{
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+}
+.v_heading{
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width:4000px) and (min-width:1440px){
+  #input_width{
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+}
