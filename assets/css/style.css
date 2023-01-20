@@ -6,6 +6,7 @@ body{
 }
 .container_height{
     height: 100vh;
+    position: relative;
 }
 .dog_input{
     width: 100%;
@@ -16,7 +17,7 @@ body{
 }
 
 .bg_color{
-    background-color: rgb(233, 227, 227);
+    background-color: rgb(187 170 170 / 8%);
 }
 
 img{
@@ -27,7 +28,9 @@ img{
     border: none;
     background-color: white;
 }
-
+.position_icon{
+    position: relative;
+}
 .position_see{
     position: absolute;
     bottom: 0;
@@ -41,8 +44,8 @@ img{
 
 .position_heading{
     position: absolute;
-    top: 3%;
-    left: 75%;
+    top: 20%;
+    left: 50%;
     transform: translate(-50%);
 }
 
